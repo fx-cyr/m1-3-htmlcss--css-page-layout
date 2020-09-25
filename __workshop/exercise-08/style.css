@@ -1,38 +1,81 @@
 body {
-  margin: 0;
+  margin: 50;
   font-family: Poppins, sans-serif;
+
 }
 
 .header {
+ background: blue; 
+ color:white;
+ text-align:center;
 }
 
 .registration-form {
+  padding-top:30px;
+  text-align:center;
+  border:1px solid grey;
+  border-radius:5px;
+  padding:20px;
+  box-shadow:  10px 10px 10px 10px grey;
+
+  
 }
 
 .text-field {
+ border:solid 1px blue
+   
 }
 
-.radio-label,
-.checkbox-label {
+.radio-label,.checkbox-label {
+  display:block;
+  text-align:left;
+  padding-top: 10px; 
 }
+
+
 
 label {
+  display: block;
+  text-align: center;
+  
 }
 
-.section {
+.section { 
+  display:block;
+  text-align:left;
+  padding:10px 0;
+  border-top: 1px solid grey;
+  margin: 10px auto;
+ 
 }
 
 .section > label {
+  text-align: left;
+  
 }
 
 select {
 }
 
 textarea {
+ width:100%;
+ padding:10px;
+ margin: 15px; 
+ background:#f5f5f5;
+ border: transparent;
+ font-family: Poppins;
 }
 
 .form-button {
+  padding:20px 50px;
+  border: 1px solid blue;
+  border-radius: 6px;
+  font-family:Poppins;
+  margin:15px auto;
+  transition: 0.5s;
 }
 
 .form-button:hover {
+  background:blue;
+  color:white;
 }

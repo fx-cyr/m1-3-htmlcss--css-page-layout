@@ -1,7 +1,48 @@
 body {
   margin: 0;
+  padding:0px;
 }
+
+header {
+ display:flex;
+ justify-content:space-between; 
+ align-items: baseline;
+ padding:0px 10px;
+}
+
+.mobile-nav {
+display:none;
+}  
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  box-sizing: border-box;
+  margin:10
+}
+
+
+@media only screen and (max-width: 800px) {
+
+ul,
+li {
+  display: none;
+}
+.desktop-nav {
+    display:none;
+}
+
+.mobile-nav {
+  display:flex;
+  justify-content:space-between; 
+}  
 
 .mobile-nav-button img {
   width: 18px;
+}
+
 }

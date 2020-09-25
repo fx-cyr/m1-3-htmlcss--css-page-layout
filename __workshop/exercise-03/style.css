@@ -1,0 +1,16 @@
+body {
+border:0;
+background: url(/Users/fx/Documents/code/m1-3-htmlcss--css-page-layout/__workshop/exercise-03/imgs/bg.jpg) no-repeat center fixed;
+background-size: cover;
+background-position: fixed;
+color:#ffffff;
+font-size: 30px;
+font-family:'Helvetica';
+text-shadow: 2px 0px black;
+display: flex;
+position: fixed;
+align-items: center;
+justify-content: center;
+min-width: 100%;
+min-height:100%;
+}
